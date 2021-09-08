@@ -1,6 +1,6 @@
 # Andrey Onokhov
 ---
-**Contacts:**
+### Contacts:
 
 * **Tel:** +79500110960
 * **Email:** andrey.onokhov@gmail.com
