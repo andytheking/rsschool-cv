@@ -7,9 +7,9 @@
 * **Telegram:** @andreyonokhov
 
 ### About Myself:
-I'm a zero frontender. What does it mean? It means that I started learning Front End just a few months ago. I realy like it. My goal is to grow up as a developer from zero to a junior position. 
+I'm a zero frontender. What does it mean? It means that I started learning Front End just a few months ago. I really like it. My goal is to grow up as a developer from zero to a junior position. 
 
-### Skils:
+### Skills:
 
 * HTML&CSS
 * Git
