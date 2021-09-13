@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+
+
+
+
+
+footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#footer_p {
+    width: 143px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.github:hover {
+    /* background-color: chartreuse; */
+    scale: 120%;
+    cursor: pointer;
+}
+
+.rsschool:hover {
+    /* background-color: chartreuse; */
+    scale: 120%;
+    cursor: pointer;
+}
