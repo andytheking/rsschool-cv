@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.container-centered {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: radial-gradient(#ff9634aa,#f87800);
+    border-radius: 4px;
+    width: 96%;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 0 3px rgba(71, 45, 45, 0.7);
+}
+
+#avatar {
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0,0,0,1);
+}
+
+.name , .possition , .contacts-h2{
+    position: relative;
+    left:40px;
+}
+
+.contacts-h2 {
+    background-color:rgba(0, 191, 255, 0.7);
+    width: 564px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.icons-contacts {
+    position: relative;
+    margin: 10px 7px 0 0;
+    bottom: -9px;
+    display: inline-block;
+}
+
+.text-contacts {
+    display:inline;
+    line-height: 100%;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+main {
+    padding: 20px;
+    border-radius: 4px;
+    width: 96%;
+    margin: 0 auto 0 auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-myself {
+    padding: 0 20px 0 20px;
+    width: 980px;
+}
+
+.about-h2 {
+    margin: 0;
+    padding-left: 17px;
+}
+
+.about-p {
+    font-style: italic;
+    font-weight: 200;
+    margin: 3% 3% 3% 1%;
+    padding: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lightcyan;
+    padding: 0;
+    margin: 0;
+}
+
+.code-h4 {
+    font-family: inherit;
+    background-color: inherit;
+    padding: 10px;
+    margin: 3% 3% 0 3% ;
+}
+
+.code-p {
+    font-family: inherit;
+    background-color: inherit;
+    padding: 10px;
+    margin: 0 3% 3% 3%;
+}
+
+.main-section-wprapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 10px;
+    padding: 0 33px 0 40px;
+}
+
+.skils-h2 , .education-h2 , .courses-h2 , .language-h2{
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0,0,0,1);
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.4);
+    padding: 5px;
+    background-color: #f87800;
+    text-align: center;
+    border-radius: 3px;
+}
+.skils-ul , .education-ul , .courses-ul, .language-ul{
+    list-style:disc;
+    list-style-position: inside;
+}
+
+.skils-ul {
+    padding-left: 10px;
+    width: 160px;
+}
+
+.education-ul {
+    list-style:none ;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.courses-ul {
+    padding-left: 10px;
+    width: 220px; 
+}
+
+.language-ul {
+    padding-left: 10px;
+    width: 140px;
+}
+
+li {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    padding: 0 10% 0 10%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#footer_p {
+    color: orange;
+    width: 160px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.github:hover {
+    scale: 120%;
+    cursor: pointer;
+}
+
+.rsschool:hover {
+    scale: 120%;
+    cursor: pointer;
+}
+
