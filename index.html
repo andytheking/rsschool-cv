@@ -8,32 +8,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="container-centered">
 <header>
-
   <div class="header-wrapper">
-    <h1>Andrey Onokhov</h1>
-    <img src="/rsschool-cv/img/avatar.jpg" alt="avatar" id="avatar" width="350" >
-        </div>
-    <p class="possition">Front-End Developer</p>    
-    
-    <h2 class="about">About Myself:</h2>
-    I'm a zero frontender. What does it mean? It means that I started learning Front-End just a few months ago. I really like it. My goal is to grow up as a developer from zero to a junior position.
-
-    <h2 class="contacts">Contacts:</h2>
-    
-    Tel: +79500110960
-    Email: andrey.onokhov@gmail.com
-    Telegram: @andreyonokhov
-    https://github.com/andytheking
-    
-
-
+    <img id="avatar" src="/rsschool-cv/img/avatar.jpg" alt="avatar" width="350">
+    <div class="title">
+      <h1 class="name">Andrey Onokhov</h1>
+      <p class="possition">Front-End Developer</p>
+    <section class="contacts">
+      <h2 class="contacts-h2">Contacts:</h2>
+      <ul class="contacts-ul">
+        <li>
+          <img class="icons-contacts" src="./img/icons/phone-logo.png" alt="phone icon" width="30px">
+          <p class="text-contacts">Tel: +79500110960</p></li>
+        <li>
+          <img class="icons-contacts" src="./img/icons/email-logo.png" alt="email icon" width="30px">
+          <p class="text-contacts">Email: andrey.onokhov@gmail.com</p></li>
+        <li>
+          <img class="icons-contacts" src="./img/icons/telegram-logo.png" alt="telegram icon" width="30px">
+          <p class="text-contacts">Telegram: @andreyonokhov</p></li>
+        <li>
+          <img class="icons-contacts" src="./img/icons/GitHub-logo.png" alt="github icon" width="30px">
+          <p class="text-contacts">https://github.com/andytheking</p></li>
+      </ul>
+    </section>
+    </div>
   </div>
-
 </header>
 
 <main>
+  <h2 class="about">About Myself:</h2>
+  <p class="about-p">
+  I'm a zero frontender. What does it mean? It means that I started learning Front-End just a few months ago. I really like it. My goal is to grow up as a developer from zero to a junior position.
+</p>
+
 Skills:
 
 HTML&CSS
@@ -43,10 +51,11 @@ SQL
 Jira
 Photoshop
 
-
-Code example:
-javascript
+<code class="code-example">
+Code example: <br>
+javascript <br>
 console.log("Hello World!");
+</code>
 
 Education and courses:
 
@@ -72,5 +81,6 @@ English - B2
     
   </footer-wrapper>
 </footer>
+</div>
 </body>
 </html>
