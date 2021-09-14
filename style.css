@@ -9,11 +9,6 @@ ol, ul {
     list-style: none;
 }
 
-/* body {
-    background-image: linear-gradient(red, blue);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-} */
-
 .container-centered {
     width: 1024px;
     margin-left: auto;
@@ -28,16 +23,11 @@ ol, ul {
     display: flex;
     align-items: flex-start;
     padding: 20px;
-    /* background-color:rgba(31, 255, 1, 0.9); */
-    /* background-image: radial-gradient(#a8d0f0, hsl(0, 0%, 100%)); */
     background-image: radial-gradient(#ff9634aa,#f87800);
     border-radius: 4px;
     width: 96%;
     margin: 10px auto 0 auto;
     box-shadow: 0 0 3px rgba(71, 45, 45, 0.7);
-    /* box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3); */
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 #avatar {
@@ -85,12 +75,6 @@ main {
     width: 96%;
     margin: 0 auto 0 auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    /* background-color: blue; */
-    /* background-image: linear-gradient(#34a4ffaa,#0042f8); */
-}
-
-.main-wrapper {
-    /* background-color: blue; */
 }
 
 .about-myself {
@@ -99,7 +83,8 @@ main {
 }
 
 .about-h2 {
-  margin: 0;
+    margin: 0;
+    padding-left: 17px;
 }
 
 .about-p {
@@ -116,7 +101,6 @@ code {
     margin: 0;
 }
 
-
 .code-h4 {
     font-family: inherit;
     background-color: inherit;
@@ -131,17 +115,62 @@ code {
     margin: 0 3% 3% 3%;
 }
 
+.main-section-wprapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 10px;
+    padding: 0 33px 0 40px;
+}
+
+.skils-h2 , .education-h2 , .courses-h2 , .language-h2{
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0,0,0,1);
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.4);
+    padding: 5px;
+    background-color: #f87800;
+    text-align: center;
+    border-radius: 3px;
+}
+.skils-ul , .education-ul , .courses-ul, .language-ul{
+    list-style:disc;
+    list-style-position: inside;
+}
+
+.skils-ul {
+    padding-left: 10px;
+    width: 160px;
+}
+
+.education-ul {
+    list-style:none ;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.courses-ul {
+    padding-left: 10px;
+    width: 220px; 
+}
+
+.language-ul {
+    padding-left: 10px;
+    width: 140px;
+}
+
+li {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
 footer-wrapper {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 1%; */
     width: 96%;
     padding: 0 10% 0 10%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-/*     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
-    background-color: gray; */
 }
 
 .github {
@@ -151,19 +180,18 @@ footer-wrapper {
 }
 
 #footer_p {
-    width: 143px;
+    color: orange;
+    width: 160px;
     padding-left: 10px;
     padding-top: 5px;
 }
 
 .github:hover {
-    /* background-color: chartreuse; */
     scale: 120%;
     cursor: pointer;
 }
 
 .rsschool:hover {
-    /* background-color: chartreuse; */
     scale: 120%;
     cursor: pointer;
 }
