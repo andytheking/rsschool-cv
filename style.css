@@ -93,13 +93,42 @@ main {
     /* background-color: blue; */
 }
 
-code {
-    font-family: 'Courier New', Courier, monospace;
-    background-color:lightcyan;
+.about-myself {
+    padding: 0 20px 0 20px;
+    width: 980px;
+}
+
+.about-h2 {
+  margin: 0;
 }
 
 .about-p {
     font-style: italic;
+    font-weight: 200;
+    margin: 3% 3% 3% 1%;
+    padding: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lightcyan;
+    padding: 0;
+    margin: 0;
+}
+
+
+.code-h4 {
+    font-family: inherit;
+    background-color: inherit;
+    padding: 10px;
+    margin: 3% 3% 0 3% ;
+}
+
+.code-p {
+    font-family: inherit;
+    background-color: inherit;
+    padding: 10px;
+    margin: 0 3% 3% 3%;
 }
 
 footer-wrapper {
